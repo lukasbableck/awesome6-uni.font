@@ -1,0 +1,976 @@
+---
+# This is configuration file for font builder and other support scripts.
+# Format is descriped below.
+#
+#
+# # metadata, to generate demo & fontello info dialogs
+# meta:
+#
+#  author: Daniel Buce
+#  homepage: http://...
+#  email: ...
+#  twitter: http://twitter.com/...
+#  dribble: http://dribbble.com/...
+#  license: SIL
+#  license_url: http://scripts.sil.org/OFL
+#
+#   css-prefix: "icon-"             # prefix for css-generated classes
+#   demo-columns: 4                 # used for html demo page generation
+#
+# # Font headers. All vars from here will be used as font
+# # params in fontforge http://fontforge.sourceforge.net/python.html
+# font:
+#
+#   version: "1.0"
+#
+#   # use !!!small!!! letters a-z, or Opera will fail under OS X
+#   # fontname will be also used as file name.
+#   fontname: myfont
+#
+#   fullname: MyFont
+#   familyname: Myfont
+#
+#   copyright: Copyright (C) 2012 by xxxxxxxx
+#
+#   ascent: 1638
+#   descent: 410
+#   weight: Regular
+#
+#
+# #
+# # Optional. You can apply global rescale + offset to all font glyphs.
+# # Param values ar 0..1, where 1 = 100%.
+# #
+# transform:
+#   baseline: 0.2                 # baseline for rescale symmetry. Default value
+#                                 # calculated from ascent/decsent
+#   rescale: 0.68                 # rescale glyphs and center around baseline
+#   offset: -0.1                  # shift up/down
+#
+# glyphs:
+#   - file: glyph1_file           # file name, without extention
+#     from: 0xNNN                 # Source code for remapper or merge tool
+#     code: 0xNNN                 # Symbol code 0x - hex
+#     css: icon-gpyph1-name       # For generated CSS
+#     search: [word1, word2]      # Search aliases (array). CSS name will be
+#                                 # included automatically
+#     src: first_font_alias       # alias to font for merge tool
+#                                 # list of aliases in src_fonts section
+#
+#     #
+#     # local transformations, only for this glyph (optional)
+#     #
+#     transform:                  # personal glyph transformation.
+#       rescale_rel               # *_rel - applyed after global.
+#       offset: 0.2               # without *_rel - override global
+#
+# #
+# # Fonts aliases used only in font merge tool
+# #
+# src_fonts:
+#   first_font_alias: "/absolute/path/to/first/font.ttf"
+#
+################################################################################
+#
+
+
+meta:
+  author: Dave Gandy
+  homepage: http://fortawesome.github.com/Font-Awesome/
+  email: dave@davegandy.com
+  twitter: https://twitter.com/fontawesome/
+  github: https://github.com/FortAwesome/Font-Awesome
+  license: SIL
+  #license_url: http://creativecommons.org/licenses/by/3.0/
+
+  css_prefix_text: "icon-"
+  columns: 4
+
+#transform:
+#  baseline: 0.5
+#  rescale: 1.053
+#  # offset: -0.05
+
+
+font:
+  version: "6.6.0"
+
+  # use !!!small!!! letters a-z, or Opera will fail under OS X
+  # fontname will be also used as file name.
+  fontname: fa6regular
+
+  fullname: Font Awesome 6 Free - regular
+  familyname: Font Awesome 6 Free
+
+  copyright: Copyright (C) 2024 Fonticons, Inc.
+
+  ascent: 850
+  descent: 150
+  weight: "Regular"
+
+glyphs:
+  - css: "circle-xmark"
+    code: 0xF05C
+    uid: 6a8cba51fea4bdd1210ad45892911990
+    search: []
+  - css: "circle-check"
+    code: 0xF05D
+    uid: 84e3d3ce95373b1e6b95d0d53ae2d6a0
+    search: []
+  - css: "circle-question"
+    code: 0xF29C
+    uid: 70082d6ab41db39a789c4e6ee790b354
+    search: []
+  - css: comment
+    code: 0xF0E5
+    uid: d9c5459b0b73f31c80c8fd599c45710a
+    search: []
+  - css: folder
+    code: 0xF114
+    uid: 9ef001ee45a469de9891ca30d32df9ef
+    search: []
+  - css: "folder-open"
+    code: 0xF115
+    uid: 824b9c17bdd814855fdfc5bf450fc981
+    search: []
+  - css: comments
+    code: 0xF0E6
+    uid: 9f59ae9f88e0a958cb4fbbbb467e6873
+    search: []
+  - css: "star-half"
+    code: 0xF123
+    uid: 2d258752c2a9a79d7517130cfc940e49
+    search: []
+  - css: "credit-card"
+    code: 0xF283
+    uid: 72cec17cbc73057e50c6f0bf179f1f2c
+    search: []
+  - css: square
+    code: 0xF096
+    uid: 002b963a096bdf655bd89d39249ab9ba
+    search: []
+  - css: envelope
+    code: 0xF003
+    uid: b92d2ef378fa2d9b46061d6bb4e0b4a4
+    search: []
+  - css: bell
+    code: 0xF0A2
+    uid: 11e48c2dea682c720ab6312641c40515
+    search: []
+  - css: "square-plus"
+    code: 0xF196
+    uid: 5478ef3b3e33e859f4b00786054799e2
+    search: []
+  - css: circle
+    code: 0xF1DB
+    uid: 6abc696ebc9ed446bee6c0378a780146
+    search: []
+  - css: circle
+    code: 0xF10C
+    uid: 0e50da0e8c5e95138dc29d06e395e337
+    search: []
+  - css: "circle-play"
+    code: 0xF01D
+    uid: cf1c91a7fdc05452a29b35a27cd1c356
+    search: []
+  - css: "square-minus"
+    code: 0xF147
+    uid: 786c099b76f73bacc4faec53ec856447
+    search: []
+  - css: "square-check"
+    code: 0xF046
+    uid: 9e6b67ef2ccde44988553e74badd8593
+    search: []
+  - css: "share-from-square"
+    code: 0xF045
+    uid: c66c1a5bd18106ab40baacf6bc86e465
+    search: []
+  - css: file
+    code: 0xF016
+    uid: 5bbeb0971f51e1d06d7491e14ee90f44
+    search: []
+  - css: "file-lines"
+    code: 0xF0F6
+    uid: e19e1294459db9274239946d5fdd4050
+    search: []
+  - css: "thumbs-up"
+    code: 0xF087
+    uid: b303e0defb1c77dd8fa7d2f706de2a67
+    search: []
+  - css: "thumbs-down"
+    code: 0xF088
+    uid: 4e0843f45dc4651e4f822a3786818557
+    search: []
+  - css: building
+    code: 0xF0F7
+    uid: 3bbe5875505ff5605660f63178626f48
+    search: []
+  - css: "paper-plane"
+    code: 0xF1D9
+    uid: 35d9964dee41e02170e22bc4873661c2
+    search: []
+  - css: "bell-slash"
+    code: 0xF1F7
+    uid: 942dc57d5e7b6441e53c7a61a0f37d27
+    search: []
+  - css: copyright
+    code: 0xA9
+    uid: 529dbf5b1a339af73a0ed012a407825b
+    search: []
+  - css: "note-sticky"
+    code: 0xF24A
+    uid: bae6e1cd6620b202e563fcc3b0966e95
+    search: []
+  - css: hourglass
+    code: 0xF250
+    uid: 54d1a70fd6dc6e863a4923eb15276681
+    search: []
+  - css: registered
+    code: 0xAE
+    uid: 5a3966337f4a28e0b1c7429f5cb63d64
+    search: []
+  - css: map
+    code: 0xF278
+    uid: a233f61c4ca5dac6f684536a0af08b5d
+    search: []
+  - css: "circle-pause"
+    code: 0xF28C
+    uid: c6591e6939da35051f31297773754cb3
+    search: []
+  - css: "circle-stop"
+    code: 0xF28E
+    uid: 6c90ec99f9c058955bd4988278aeb27a
+    search: []
+  - css: "font-awesome"
+    code: 0xF4E6
+    uid: 7706e621daa1d11949d65e1450d2d7a2
+    search: []
+  - css: "font-awesome"
+    code: 0xF425
+    uid: ed97d6e6a6ca881274e173e9819cd2bb
+    search: []
+  - css: "font-awesome"
+    code: 0xF2B4
+    uid: 6b5d7ef9eafb72475cae3261b51e0625
+    search: []
+  - css: "envelope-open"
+    code: 0xF2B7
+    uid: c951d0e65e537e17cd802b9b2eb75da3
+    search: []
+  - css: "address-book"
+    code: 0xF2BA
+    uid: 4d600982d3070b79b2d79dd173653b3e
+    search: []
+  - css: "address-card"
+    code: 0xF2BC
+    uid: bdc7e0649e999b0830dddc1cbc4b0709
+    search: []
+  - css: "circle-user"
+    code: 0xF2BE
+    uid: 46680e1099c0b21c7143882a2f34b053
+    search: []
+  - css: "id-card"
+    code: 0xF2C3
+    uid: 8016316a31f288176cddde680f84a952
+    search: []
+  - css: "trash-can"
+    code: 0xF014
+    uid: 44b729ae252a5dc9342d7b0b9dc7ea83
+    search: []
+  - css: "circle-down"
+    code: 0xF01A
+    uid: d61d5361b0209ae7f323208881cfa11c
+    search: []
+  - css: "circle-left"
+    code: 0xF190
+    uid: 60c8a68d70df4fa338ef4e97acfe4e4f
+    search: []
+  - css: "circle-right"
+    code: 0xF18E
+    uid: eab916e3f39836a256146d4bbb838df6
+    search: []
+  - css: "circle-up"
+    code: 0xF01B
+    uid: acf2ba2002236a95e6e036019a489b0d
+    search: []
+  - css: "rectangle-xmark"
+    code: 0xF2D4
+    uid: 0a844b1b3c3c354d33113ad5c206fabd
+    search: []
+  - css: "comment-dots"
+    code: 0xF27B
+    uid: d926ebe5bec4e04ad481ea31f5233111
+    search: []
+
+  - css: "folder-closed"
+    code: 0xE185
+    uid: 0317cc0ab39de537d27ca712a5c27fcf
+    search: []
+  - css: heart
+    code: 0xF08A
+    uid: b5b55c913fbd1e7ee31701f6c038c262
+    search: []
+  - css: heart
+    code: 0xF004
+    uid: dedd9536eba8adac53d12a86dec8d393
+    search: []
+  - css: star
+    code: 0xF006
+    uid: e6b0e8602344c8a7636d45ab064ea9fa
+    search: []
+  - css: star
+    code: 0xF005
+    uid: 3a29ea995eeb4aaab61bf52c1529e0cc
+    search: []
+  - css: user
+    code: 0xF2C0
+    uid: 9f62862b84dfe23c839f1435edfeef9e
+    search: []
+  - css: user
+    code: 0xF007
+    uid: 90749c86e3fe98e80b06a31efbe32292
+    search: []
+  - css: clock
+    code: 0xF017
+    uid: 14a135a024e25daedd590e0c32310078
+    search: []
+  - css: "rectangle-list"
+    code: 0xF022
+    uid: 3e6bb09af721790dece025feb3bec2eb
+    search: []
+  - css: flag
+    code: 0xF11D
+    uid: 58516b8453da0e5c0d9fdce3b5cd1b45
+    search: []
+  - css: flag
+    code: 0xF024
+    uid: 89530966ed14a2b5ff008a83e1511cbf
+    search: []
+  - css: bookmark
+    code: 0xF097
+    uid: a15b270d3569a76adaba0842f1655610
+    search: []
+  - css: bookmark
+    code: 0xF02E
+    uid: d39e39875cf0c25e15c7f26d166d1143
+    search: []
+  - css: image
+    code: 0xF03E
+    uid: 1ceda25a481bb7f2e8cb5cce18c00ba9
+    search: []
+  - css: "pen-to-square"
+    code: 0xF044
+    uid: 4fd42b7085cda93d054d68b3f1988c68
+    search: []
+  - css: "circle-xmark"
+    code: 0xF057
+    uid: c5e81cc7f36ec7295384b791e14b1cd8
+    search: []
+  - css: "circle-check"
+    code: 0xF058
+    uid: f2d693798462ea7625b9b0a9c978110e
+    search: []
+  - css: "circle-question"
+    code: 0xF059
+    uid: 5dc0f25fd4339172123782232c345d2a
+    search: []
+  - css: eye
+    code: 0xF06E
+    uid: c844ddc88afe9a65bc724dcf0a427929
+    search: []
+  - css: "eye-slash"
+    code: 0xF070
+    uid: fd15c4b7038bff0082c6154beda20ddc
+    search: []
+  - css: "calendar-days"
+    code: 0xF073
+    uid: d9e77aa5ea392fadfdd16b3c95051974
+    search: []
+  - css: comment
+    code: 0xF075
+    uid: f6fd81e179ca275493e328944146c23a
+    search: []
+  - css: folder
+    code: 0xF07B
+    uid: f7f4e4463cba68a1524101eab5f9c1b5
+    search: []
+  - css: "folder-open"
+    code: 0xF07C
+    uid: 9ec53bdee0f92fc19fffca340adbfb75
+    search: []
+  - css: "chart-bar"
+    code: 0xF080
+    uid: 3ce5a4991339e99b73d578ccf07c3322
+    search: []
+  - css: comments
+    code: 0xF086
+    uid: 859f69c0cd824ae131d5ff206bb828eb
+    search: []
+  - css: "star-half"
+    code: 0xF089
+    uid: 0ffeeaea0e477b73beef59bd3b216a01
+    search: []
+  - css: lemon
+    code: 0xF094
+    uid: fc723d61e4b9f455aea98426b3729d21
+    search: []
+  - css: "credit-card"
+    code: 0xF09D
+    uid: 2549272ebec4a4004984066f856d62ef
+    search: []
+  - css: "hard-drive"
+    code: 0xF0A0
+    uid: 664e47e6578f0e60189b88c7a60dcf29
+    search: []
+  - css: "hand-point-right"
+    code: 0xF0A4
+    uid: 23de7f6eedfa8cfdd65ab635b5761063
+    search: []
+  - css: "hand-point-left"
+    code: 0xF0A5
+    uid: 361d9f305923e337c5408e7addd5fe33
+    search: []
+  - css: "hand-point-up"
+    code: 0xF0A6
+    uid: 70274afd94c5c2a022894a696b7764e3
+    search: []
+  - css: "hand-point-down"
+    code: 0xF0A7
+    uid: 4b14113452e17a3fb046d320e9155446
+    search: []
+  - css: copy
+    code: 0xF0C5
+    uid: cc95748daaa167ef760defa0b2ffd366
+    search: []
+  - css: "floppy-disk"
+    code: 0xF0C7
+    uid: 4549211da1e2e7420ae4cc1c507384ef
+    search: []
+  - css: square
+    code: 0xF0C8
+    uid: 01bdad0a7599a529642da340fef9e671
+    search: []
+  - css: envelope
+    code: 0xF0E0
+    uid: 21180a71878f12eacac20eef6ed373a5
+    search: []
+  - css: paste
+    code: 0xF0EA
+    uid: 260eeab190a0f6e2a8480ac813402dcd
+    search: []
+  - css: lightbulb
+    code: 0xF0EB
+    uid: 264e0f0306e57f80258f5c9770e3df3f
+    search: []
+  - css: bell
+    code: 0xF0F3
+    uid: 8bf2439a4afc902aa16bbacffd4521ed
+    search: []
+  - css: hospital
+    code: 0xF47D
+    uid: 4cf059f0077119355832933b80380fcc
+    search: []
+  - css: hospital
+    code: 0xF0F8
+    uid: 3de59f611f62ef51ca9ed81ec0bb3516
+    search: []
+  - css: "square-plus"
+    code: 0xF0FE
+    uid: 98fd7a418727bd90682ab31b4d426fcf
+    search: []
+  - css: circle
+    code: 0xF111
+    uid: 824c5b36f46e22e004df8ecc5f6df72f
+    search: []
+  - css: "face-smile"
+    code: 0xF118
+    uid: 4693c72c5f5be11f31ae4d34b68e8a0d
+    search: []
+  - css: "face-frown"
+    code: 0xF119
+    uid: c6e044af439733a1f60e748d89132736
+    search: []
+  - css: "face-meh"
+    code: 0xF11A
+    uid: c432d8f128939a7faecf684b25f1553b
+    search: []
+  - css: keyboard
+    code: 0xF11C
+    uid: 0767fcfcc3f2054cba28b1f97ed8a793
+    search: []
+  - css: calendar
+    code: 0xF133
+    uid: ba464cf69fa20a3d0386d1033c62c102
+    search: []
+  - css: "circle-play"
+    code: 0xF144
+    uid: 342542ff791c298652b987afb9e40a9a
+    search: []
+  - css: "square-minus"
+    code: 0xF146
+    uid: 02298c89e3f2b61af416ad0e5366fac9
+    search: []
+  - css: "square-check"
+    code: 0xF14A
+    uid: 6e434bc11296b30f961416cbe9ae63ed
+    search: []
+  - css: "share-from-square"
+    code: 0xF14D
+    uid: 8d10e51904541168d76fea326e2a1e51
+    search: []
+  - css: compass
+    code: 0xF14E
+    uid: 0875f59068f038eebf501615093b9eb8
+    search: []
+  - css: "square-caret-down"
+    code: 0xF150
+    uid: 321dd411abcdb4515c96f8870e264944
+    search: []
+  - css: "square-caret-up"
+    code: 0xF151
+    uid: e3fa3a1cca2ffca81cdd97efbb2a16d6
+    search: []
+  - css: "square-caret-right"
+    code: 0xF152
+    uid: a2687a97dc610a75a5bd7c3f17e2ebad
+    search: []
+  - css: file
+    code: 0xF15B
+    uid: ba637b493b863b02c06ce5fd5512f27d
+    search: []
+  - css: "file-lines"
+    code: 0xF15C
+    uid: 34ebce4e6f56d0902cb30ed7b42f782e
+    search: []
+  - css: "thumbs-up"
+    code: 0xF164
+    uid: 6ca3538b9d4f9478cc50deca4c470491
+    search: []
+  - css: "thumbs-down"
+    code: 0xF165
+    uid: 3560f980e571596700ff235b3354b934
+    search: []
+  - css: sun
+    code: 0xF185
+    uid: efe2cc0adea2fac03c849afecdb972ae
+    search: []
+  - css: moon
+    code: 0xF186
+    uid: cfc42027b156b3e5496e17413eb7f5bb
+    search: []
+  - css: "square-caret-left"
+    code: 0xF191
+    uid: 53fda52439a146c6710beb0b019b3c2a
+    search: []
+  - css: "circle-dot"
+    code: 0xF192
+    uid: 89c3e5fef02c6fc10436078186a73c22
+    search: []
+  - css: building
+    code: 0xF1AD
+    uid: aa04ffb0fc19cc69e83d2ec96954f504
+    search: []
+  - css: "file-pdf"
+    code: 0xF1C1
+    uid: 1a686662e29e5add12fb73bd8b07c125
+    search: []
+  - css: "file-word"
+    code: 0xF1C2
+    uid: eb75f9982a84319f4b752ff72f5d4a43
+    search: []
+  - css: "file-excel"
+    code: 0xF1C3
+    uid: a95a260255f8b1c0507a77778468e0c4
+    search: []
+  - css: "file-powerpoint"
+    code: 0xF1C4
+    uid: c83b90cda65101f22d5bb9c009698fda
+    search: []
+  - css: "file-image"
+    code: 0xF1C5
+    uid: 6a5c8d7cbb70ea65c991c7f18ec5a383
+    search: []
+  - css: "file-zipper"
+    code: 0xF1C6
+    uid: 91e9ce016cee8d960421926a6cc239a7
+    search: []
+  - css: "file-audio"
+    code: 0xF1C7
+    uid: 4c4b08a45675aa04d0c214612da96458
+    search: []
+  - css: "file-video"
+    code: 0xF1C8
+    uid: 1cc707ddda444e8f1a56c8a40c6cc36d
+    search: []
+  - css: "file-code"
+    code: 0xF1C9
+    uid: e700160554862015ad249328468d6b56
+    search: []
+  - css: "life-ring"
+    code: 0xF1CD
+    uid: ae031bec0f04fe0cec20db1d513004af
+    search: []
+  - css: "paper-plane"
+    code: 0xF1D8
+    uid: 0c5475bfe84d1053f289d318f993455a
+    search: []
+  - css: futbol
+    code: 0xF1E3
+    uid: eeff89c45141c98c83f777273c29fce5
+    search: []
+  - css: newspaper
+    code: 0xF1EA
+    uid: 298c1597902de0fab2d165f60ef7b74a
+    search: []
+  - css: "bell-slash"
+    code: 0xF1F6
+    uid: 24c28199aa12366b7e81d8f991ddbdd5
+    search: []
+  - css: copyright
+    code: 0xF1F9
+    uid: b43686001d79d34365d33c1837b23a09
+    search: []
+  - css: "closed-captioning"
+    code: 0xF20A
+    uid: c913fed2438942ec898602d6b14f66ab
+    search: []
+  - css: "object-group"
+    code: 0xF247
+    uid: a630fadc1b105e247f0f5b725db19b93
+    search: []
+  - css: "object-ungroup"
+    code: 0xF248
+    uid: f5cdcb3d738436a2b86711dd40625dd5
+    search: []
+  - css: "note-sticky"
+    code: 0xF249
+    uid: 538ca98fe348acbdcca3f34042357afa
+    search: []
+  - css: clone
+    code: 0xF24D
+    uid: 6430a36dee9b65bc8bb2d939246ef654
+    search: []
+  - css: "hourglass-half"
+    code: 0xF252
+    uid: f8a4dbf2a46ec7ff23611e733d79c453
+    search: []
+  - css: hourglass
+    code: 0xF254
+    uid: 2b2802088a0a4ff580c93360a41843c1
+    search: []
+  - css: "hand-back-fist"
+    code: 0xF255
+    uid: 9de548cbc28c2b804998866ad8a7a5ce
+    search: []
+  - css: hand
+    code: 0xF256
+    uid: 7df82ccc64547f1994e3aa67f50f7e97
+    search: []
+  - css: "hand-scissors"
+    code: 0xF257
+    uid: 04b11a8df2959e92f18cef4b5b489a0c
+    search: []
+  - css: "hand-lizard"
+    code: 0xF258
+    uid: 7a2200d5513e7fd8a104de3ba49b730e
+    search: []
+  - css: "hand-spock"
+    code: 0xF259
+    uid: 4a27372d6e3b8419eb5852abf9078b77
+    search: []
+  - css: "hand-pointer"
+    code: 0xF25A
+    uid: 53b408a9e253e5eb64cbbaf8ecf914ac
+    search: []
+  - css: "hand-peace"
+    code: 0xF25B
+    uid: b698a82b3011ff9f12cc8c92837cfab0
+    search: []
+  - css: registered
+    code: 0xF25D
+    uid: 3e19b16fba6d5c2d474d212d7ea01b2c
+    search: []
+  - css: "calendar-plus"
+    code: 0xF271
+    uid: 5b3e536c07095e003ece24d77ffdfa0d
+    search: []
+  - css: "calendar-minus"
+    code: 0xF272
+    uid: 7e4f7dde598914a6494510778679ae60
+    search: []
+  - css: "calendar-xmark"
+    code: 0xF273
+    uid: 9df650d0e8be23b5a6704bc0ea707d85
+    search: []
+  - css: "calendar-check"
+    code: 0xF274
+    uid: 49055f5d18aea06c16d05bfda1b685cb
+    search: []
+  - css: map
+    code: 0xF279
+    uid: 2df2103c0028bde06913af3247c7b86a
+    search: []
+  - css: message
+    code: 0xF27A
+    uid: 3e386e03cb413809930b626d6768c066
+    search: []
+  - css: "circle-pause"
+    code: 0xF28B
+    uid: b09b4324846043eb857c117c41f191da
+    search: []
+  - css: "circle-stop"
+    code: 0xF28D
+    uid: 08a0f661c76a3e3a1da6720dd29be7f3
+    search: []
+  - css: handshake
+    code: 0xF2B5
+    uid: 89395a1e5f1224e853e76e10ae516442
+    search: []
+  - css: "envelope-open"
+    code: 0xF2B6
+    uid: 638790517583fae3a0ccc99d3569d2fc
+    search: []
+  - css: "address-book"
+    code: 0xF2B9
+    uid: 93a92792e6a519324b05d9eca0e66d3a
+    search: []
+  - css: "address-card"
+    code: 0xF2BB
+    uid: 67d93eda29ee9b736a890a51e06cedd1
+    search: []
+  - css: "circle-user"
+    code: 0xF2BD
+    uid: b19bd68a40f402b6e7ba1c847276e2db
+    search: []
+  - css: "id-badge"
+    code: 0xF2C1
+    uid: 86e5efd119dc4ee86a1259bcb80683a2
+    search: []
+  - css: "id-card"
+    code: 0xF2C2
+    uid: 846399044eca1a11153cba82da0bfd7f
+    search: []
+  - css: "window-maximize"
+    code: 0xF2D0
+    uid: 8e14d45cb18a2eb5407d371c1cd6d7e6
+    search: []
+  - css: "window-minimize"
+    code: 0xF2D1
+    uid: eeb68640c26f9a5918db70198fdfb433
+    search: []
+  - css: "window-restore"
+    code: 0xF2D2
+    uid: 44f6ad90234fa66c99575b74fc4bd74f
+    search: []
+  - css: snowflake
+    code: 0xF2DC
+    uid: ac785ca3f3ad7a8382b5ff1dff37de75
+    search: []
+  - css: "trash-can"
+    code: 0xF2ED
+    uid: 1c43c7da16e654d7a857cd6cd865a773
+    search: []
+  - css: images
+    code: 0xF302
+    uid: 6879e18f442f445cba5c1561829bfab7
+    search: []
+  - css: clipboard
+    code: 0xF328
+    uid: e720fe5c6d37daf3aced768a962d2f99
+    search: []
+  - css: "circle-down"
+    code: 0xF358
+    uid: 4555a5d5b17a56d0444fdfddb5e110fc
+    search: []
+  - css: "circle-left"
+    code: 0xF359
+    uid: 16c225a7a0447eb18551ba7264d315ed
+    search: []
+  - css: "circle-right"
+    code: 0xF35A
+    uid: a7e14597a08ec61fa413b8320c35b1eb
+    search: []
+  - css: "circle-up"
+    code: 0xF35B
+    uid: d1275dcc4129db7edafd5bbea4b2f28d
+    search: []
+  - css: gem
+    code: 0xF3A5
+    uid: 8a2b3c021cbb57f803e73079a15e0837
+    search: []
+  - css: "money-bill-1"
+    code: 0xF3D1
+    uid: 53c13d359cf3af7bb850fdbc10381325
+    search: []
+  - css: "rectangle-xmark"
+    code: 0xF410
+    uid: 2d4087d01c2927df91a38827aada9e89
+    search: []
+  - css: "chess-bishop"
+    code: 0xF43A
+    uid: 8cd45dac44ea7ba0bf03348988967630
+    search: []
+  - css: "chess-king"
+    code: 0xF43F
+    uid: b348b17c3b1d704b23c94b7b19d1756c
+    search: []
+  - css: "chess-knight"
+    code: 0xF441
+    uid: d46574813478404406382ec307ffedeb
+    search: []
+  - css: "chess-pawn"
+    code: 0xF443
+    uid: 9f4e42716d27d518a39f7ea8c04b1048
+    search: []
+  - css: "chess-queen"
+    code: 0xF445
+    uid: 0752d5267e571fad73ddbaa88ffd2ae2
+    search: []
+  - css: "chess-rook"
+    code: 0xF447
+    uid: f2363ab25e3948957212f3b0a876cf4a
+    search: []
+  - css: "square-full"
+    code: 0xF45C
+    uid: a08d24937620464793edd5ab90d375be
+    search: []
+  - css: "comment-dots"
+    code: 0xF4AD
+    uid: 8b2e754f6f1f2b946082af0261302fe4
+    search: []
+  - css: "face-smile-wink"
+    code: 0xF4DA
+    uid: 01225c1bade9139f4bf0cc5205509a79
+    search: []
+  - css: "face-angry"
+    code: 0xF556
+    uid: cf6b0cddf1ab87ad5018a8ef665f8dfb
+    search: []
+  - css: "face-dizzy"
+    code: 0xF567
+    uid: 39cc9c6c1a5c8aa753c509eed0497af9
+    search: []
+  - css: "face-flushed"
+    code: 0xF579
+    uid: f7fd60f848de8a8df851f9fbd25a8244
+    search: []
+  - css: "face-frown-open"
+    code: 0xF57A
+    uid: 02e652d09c274713d5c48d99bab88125
+    search: []
+  - css: "face-grimace"
+    code: 0xF57F
+    uid: b33f43615156339d6c8b9ff1f5805ae4
+    search: []
+  - css: "face-grin"
+    code: 0xF580
+    uid: 7ce21c1ceef1f3ab30afa7913b55255b
+    search: []
+  - css: "face-grin-wide"
+    code: 0xF581
+    uid: 0ab91766c81a5cefccb5d8fca960f50f
+    search: []
+  - css: "face-grin-beam"
+    code: 0xF582
+    uid: 889fbcee211f23cf59e035f3ae4fb4a9
+    search: []
+  - css: "face-grin-beam-sweat"
+    code: 0xF583
+    uid: bee60142968f117dd64265b67280fe55
+    search: []
+  - css: "face-grin-hearts"
+    code: 0xF584
+    uid: 874f3fc107fbd24e7da6f18f83bd7eb0
+    search: []
+  - css: "face-grin-squint"
+    code: 0xF585
+    uid: 358fd64513f25200459e57be7dd8c1f8
+    search: []
+  - css: "face-grin-squint-tears"
+    code: 0xF586
+    uid: e002c6a2a9b88b3e0be3913168694a4c
+    search: []
+  - css: "face-grin-stars"
+    code: 0xF587
+    uid: f5c0ec338605bcbcc6e1e1034efc0683
+    search: []
+  - css: "face-grin-tears"
+    code: 0xF588
+    uid: 71d09b50a20e6447e2553f594de03f56
+    search: []
+  - css: "face-grin-tongue"
+    code: 0xF589
+    uid: 2512a987b99c00ae3aa7f9bc7ad6bcf3
+    search: []
+  - css: "face-grin-tongue-squint"
+    code: 0xF58A
+    uid: 2b997397e641155c565aeb9bd55bca32
+    search: []
+  - css: "face-grin-tongue-wink"
+    code: 0xF58B
+    uid: 47210c1dc84bd15e681163cb937e118b
+    search: []
+  - css: "face-grin-wink"
+    code: 0xF58C
+    uid: 1dfaf99faec5aedca0ce018ff38ab111
+    search: []
+  - css: "face-kiss"
+    code: 0xF596
+    uid: fb0eb0c4e43028658248e885051c48d9
+    search: []
+  - css: "face-kiss-beam"
+    code: 0xF597
+    uid: 872b2305ed3760d1bd1bad1f5be447dd
+    search: []
+  - css: "face-kiss-wink-heart"
+    code: 0xF598
+    uid: c327458bd207710ef71b02b0e1eb66d4
+    search: []
+  - css: "face-laugh"
+    code: 0xF599
+    uid: b41053b4d6afe948d6094e65598e8e1e
+    search: []
+  - css: "face-laugh-beam"
+    code: 0xF59A
+    uid: ae9e09b9792897b8185548b84f716216
+    search: []
+  - css: "face-laugh-squint"
+    code: 0xF59B
+    uid: 8fa290a4d4031b40627ba44cf543554c
+    search: []
+  - css: "face-laugh-wink"
+    code: 0xF59C
+    uid: 88f3fa67a4bb0109aca4287f17dff725
+    search: []
+  - css: "face-meh-blank"
+    code: 0xF5A4
+    uid: 241b627c7bba2450a69ed5c91cc04d6a
+    search: []
+  - css: "face-rolling-eyes"
+    code: 0xF5A5
+    uid: 9da6df4221ad5ef879a1a4cedea31787
+    search: []
+  - css: "face-sad-cry"
+    code: 0xF5B3
+    uid: 7554df5dbe8955eacf74b256e2aed4a2
+    search: []
+  - css: "face-sad-tear"
+    code: 0xF5B4
+    uid: ce417d9d25d94d804e4f3bbfe1284c27
+    search: []
+  - css: "face-smile-beam"
+    code: 0xF5B8
+    uid: 3fdcf48a2968cb40607416ca1f818d4d
+    search: []
+  - css: "star-half-stroke"
+    code: 0xF5C0
+    uid: b53502f68db1d15349c534c15634c9cd
+    search: []
+  - css: "face-surprise"
+    code: 0xF5C2
+    uid: ea76ac8ec3844fdbd949ecfca57a47ed
+    search: []
+  - css: "face-tired"
+    code: 0xF5C8
+    uid: cecace28a2ebab268c07257afd254291
+    search: []
