@@ -107,870 +107,656 @@ font:
   ascent: 850
   descent: 150
   weight: "Regular"
-
 glyphs:
-  - css: "circle-xmark"
-    code: 0xF05C
-    uid: 6a8cba51fea4bdd1210ad45892911990
-    search: []
-  - css: "circle-check"
-    code: 0xF05D
-    uid: 84e3d3ce95373b1e6b95d0d53ae2d6a0
-    search: []
-  - css: "circle-question"
-    code: 0xF29C
-    uid: 70082d6ab41db39a789c4e6ee790b354
-    search: []
-  - css: comment
-    code: 0xF0E5
-    uid: d9c5459b0b73f31c80c8fd599c45710a
-    search: []
-  - css: folder
-    code: 0xF114
-    uid: 9ef001ee45a469de9891ca30d32df9ef
-    search: []
-  - css: "folder-open"
-    code: 0xF115
-    uid: 824b9c17bdd814855fdfc5bf450fc981
-    search: []
-  - css: comments
-    code: 0xF0E6
-    uid: 9f59ae9f88e0a958cb4fbbbb467e6873
-    search: []
-  - css: "star-half"
-    code: 0xF123
-    uid: 2d258752c2a9a79d7517130cfc940e49
-    search: []
-  - css: "credit-card"
-    code: 0xF283
-    uid: 72cec17cbc73057e50c6f0bf179f1f2c
-    search: []
-  - css: square
-    code: 0xF096
-    uid: 002b963a096bdf655bd89d39249ab9ba
-    search: []
-  - css: envelope
-    code: 0xF003
-    uid: b92d2ef378fa2d9b46061d6bb4e0b4a4
-    search: []
-  - css: bell
-    code: 0xF0A2
-    uid: 11e48c2dea682c720ab6312641c40515
-    search: []
-  - css: "square-plus"
-    code: 0xF196
-    uid: 5478ef3b3e33e859f4b00786054799e2
-    search: []
-  - css: circle
-    code: 0xF1DB
-    uid: 6abc696ebc9ed446bee6c0378a780146
-    search: []
-  - css: circle
-    code: 0xF10C
-    uid: 0e50da0e8c5e95138dc29d06e395e337
-    search: []
-  - css: "circle-play"
-    code: 0xF01D
-    uid: cf1c91a7fdc05452a29b35a27cd1c356
-    search: []
-  - css: "square-minus"
-    code: 0xF147
-    uid: 786c099b76f73bacc4faec53ec856447
-    search: []
-  - css: "square-check"
-    code: 0xF046
-    uid: 9e6b67ef2ccde44988553e74badd8593
-    search: []
-  - css: "share-from-square"
-    code: 0xF045
-    uid: c66c1a5bd18106ab40baacf6bc86e465
-    search: []
-  - css: file
-    code: 0xF016
-    uid: 5bbeb0971f51e1d06d7491e14ee90f44
-    search: []
-  - css: "file-lines"
-    code: 0xF0F6
-    uid: e19e1294459db9274239946d5fdd4050
-    search: []
-  - css: "thumbs-up"
-    code: 0xF087
-    uid: b303e0defb1c77dd8fa7d2f706de2a67
-    search: []
-  - css: "thumbs-down"
-    code: 0xF088
-    uid: 4e0843f45dc4651e4f822a3786818557
-    search: []
-  - css: building
-    code: 0xF0F7
-    uid: 3bbe5875505ff5605660f63178626f48
-    search: []
-  - css: "paper-plane"
-    code: 0xF1D9
-    uid: 35d9964dee41e02170e22bc4873661c2
-    search: []
-  - css: "bell-slash"
-    code: 0xF1F7
-    uid: 942dc57d5e7b6441e53c7a61a0f37d27
-    search: []
-  - css: copyright
-    code: 0xA9
-    uid: 529dbf5b1a339af73a0ed012a407825b
-    search: []
-  - css: "note-sticky"
-    code: 0xF24A
-    uid: bae6e1cd6620b202e563fcc3b0966e95
-    search: []
-  - css: hourglass
-    code: 0xF250
-    uid: 54d1a70fd6dc6e863a4923eb15276681
-    search: []
-  - css: registered
-    code: 0xAE
-    uid: 5a3966337f4a28e0b1c7429f5cb63d64
-    search: []
-  - css: map
-    code: 0xF278
-    uid: a233f61c4ca5dac6f684536a0af08b5d
-    search: []
-  - css: "circle-pause"
-    code: 0xF28C
-    uid: c6591e6939da35051f31297773754cb3
-    search: []
-  - css: "circle-stop"
-    code: 0xF28E
-    uid: 6c90ec99f9c058955bd4988278aeb27a
-    search: []
-  - css: "font-awesome"
-    code: 0xF4E6
-    uid: 7706e621daa1d11949d65e1450d2d7a2
-    search: []
-  - css: "font-awesome"
-    code: 0xF425
-    uid: ed97d6e6a6ca881274e173e9819cd2bb
-    search: []
-  - css: "font-awesome"
-    code: 0xF2B4
-    uid: 6b5d7ef9eafb72475cae3261b51e0625
-    search: []
-  - css: "envelope-open"
-    code: 0xF2B7
-    uid: c951d0e65e537e17cd802b9b2eb75da3
-    search: []
-  - css: "address-book"
-    code: 0xF2BA
-    uid: 4d600982d3070b79b2d79dd173653b3e
-    search: []
-  - css: "address-card"
-    code: 0xF2BC
-    uid: bdc7e0649e999b0830dddc1cbc4b0709
-    search: []
-  - css: "circle-user"
-    code: 0xF2BE
-    uid: 46680e1099c0b21c7143882a2f34b053
-    search: []
-  - css: "id-card"
-    code: 0xF2C3
-    uid: 8016316a31f288176cddde680f84a952
-    search: []
-  - css: "trash-can"
-    code: 0xF014
-    uid: 44b729ae252a5dc9342d7b0b9dc7ea83
-    search: []
-  - css: "circle-down"
-    code: 0xF01A
-    uid: d61d5361b0209ae7f323208881cfa11c
-    search: []
-  - css: "circle-left"
-    code: 0xF190
-    uid: 60c8a68d70df4fa338ef4e97acfe4e4f
-    search: []
-  - css: "circle-right"
-    code: 0xF18E
-    uid: eab916e3f39836a256146d4bbb838df6
-    search: []
-  - css: "circle-up"
-    code: 0xF01B
-    uid: acf2ba2002236a95e6e036019a489b0d
-    search: []
-  - css: "rectangle-xmark"
-    code: 0xF2D4
-    uid: 0a844b1b3c3c354d33113ad5c206fabd
-    search: []
-  - css: "comment-dots"
-    code: 0xF27B
-    uid: d926ebe5bec4e04ad481ea31f5233111
-    search: []
-
   - css: "folder-closed"
     code: 0xE185
-    uid: 0317cc0ab39de537d27ca712a5c27fcf
+    uid: 0ce31eec7654f850bde86508e593426b
     search: []
   - css: heart
     code: 0xF08A
-    uid: b5b55c913fbd1e7ee31701f6c038c262
-    search: []
-  - css: heart
-    code: 0xF004
-    uid: dedd9536eba8adac53d12a86dec8d393
+    uid: 37436fdee659f6df5946485325c672db
     search: []
   - css: star
     code: 0xF006
-    uid: e6b0e8602344c8a7636d45ab064ea9fa
-    search: []
-  - css: star
-    code: 0xF005
-    uid: 3a29ea995eeb4aaab61bf52c1529e0cc
-    search: []
-  - css: user
-    code: 0xF2C0
-    uid: 9f62862b84dfe23c839f1435edfeef9e
+    uid: ea791410dd3647af718f153f13d703f2
     search: []
   - css: user
     code: 0xF007
-    uid: 90749c86e3fe98e80b06a31efbe32292
+    uid: 9aa88aeef5ea773d355147fbda7700b3
     search: []
   - css: clock
     code: 0xF017
-    uid: 14a135a024e25daedd590e0c32310078
+    uid: d1f2ce1307942338cb61a78714ecf1cc
     search: []
   - css: "rectangle-list"
     code: 0xF022
-    uid: 3e6bb09af721790dece025feb3bec2eb
-    search: []
-  - css: flag
-    code: 0xF11D
-    uid: 58516b8453da0e5c0d9fdce3b5cd1b45
+    uid: 15ed1aeca95e31e923904fc20ce62f7e
     search: []
   - css: flag
     code: 0xF024
-    uid: 89530966ed14a2b5ff008a83e1511cbf
+    uid: 601bd8b115cd06999f490f865d040561
     search: []
   - css: bookmark
     code: 0xF097
-    uid: a15b270d3569a76adaba0842f1655610
-    search: []
-  - css: bookmark
-    code: 0xF02E
-    uid: d39e39875cf0c25e15c7f26d166d1143
+    uid: 5626ec7e8a78259663ea5ee09cdfb884
     search: []
   - css: image
     code: 0xF03E
-    uid: 1ceda25a481bb7f2e8cb5cce18c00ba9
+    uid: 9530158c3c5d59632eded683dbfdf6aa
     search: []
   - css: "pen-to-square"
     code: 0xF044
-    uid: 4fd42b7085cda93d054d68b3f1988c68
+    uid: 6c10dd5cdc8c49844a40aa7274efe3ea
     search: []
   - css: "circle-xmark"
-    code: 0xF057
-    uid: c5e81cc7f36ec7295384b791e14b1cd8
+    code: 0xF05C
+    uid: 20f9820962e5a84fa42d0fdad8e8fd11
     search: []
   - css: "circle-check"
-    code: 0xF058
-    uid: f2d693798462ea7625b9b0a9c978110e
+    code: 0xF05D
+    uid: 08e3fba84560e4e6b53499bd607738d8
     search: []
   - css: "circle-question"
-    code: 0xF059
-    uid: 5dc0f25fd4339172123782232c345d2a
+    code: 0xF29C
+    uid: b12f51f3164c0fd56d15e6ef5afc5068
     search: []
   - css: eye
     code: 0xF06E
-    uid: c844ddc88afe9a65bc724dcf0a427929
+    uid: e1555319065f106b36b81f841a00ef50
     search: []
   - css: "eye-slash"
     code: 0xF070
-    uid: fd15c4b7038bff0082c6154beda20ddc
+    uid: 04639e71047b0617b908d003091debde
     search: []
   - css: "calendar-days"
     code: 0xF073
-    uid: d9e77aa5ea392fadfdd16b3c95051974
+    uid: d4f8ed6edab2d07cf5e6d68f2d078bc4
     search: []
   - css: comment
-    code: 0xF075
-    uid: f6fd81e179ca275493e328944146c23a
+    code: 0xF0E5
+    uid: 8f0bd327c8b9f4ac05ef55c3f95e9a54
     search: []
   - css: folder
-    code: 0xF07B
-    uid: f7f4e4463cba68a1524101eab5f9c1b5
+    code: 0xF114
+    uid: a2f88e6075b2bbde5fb44634c4c24dc0
     search: []
   - css: "folder-open"
-    code: 0xF07C
-    uid: 9ec53bdee0f92fc19fffca340adbfb75
+    code: 0xF115
+    uid: c3f23d22bb39dce87431d96b09b6ea7e
     search: []
   - css: "chart-bar"
     code: 0xF080
-    uid: 3ce5a4991339e99b73d578ccf07c3322
+    uid: cebfbf981ba12658f0227dc734c7f3c6
     search: []
   - css: comments
-    code: 0xF086
-    uid: 859f69c0cd824ae131d5ff206bb828eb
+    code: 0xF0E6
+    uid: f83f1a898013c89abeee9dd6bced36d6
     search: []
   - css: "star-half"
-    code: 0xF089
-    uid: 0ffeeaea0e477b73beef59bd3b216a01
+    code: 0xF123
+    uid: 42d893f901465e055ccf85c8d8e53e8d
     search: []
   - css: lemon
     code: 0xF094
-    uid: fc723d61e4b9f455aea98426b3729d21
+    uid: d0a726af5d9ff6791163cf27a03c320a
     search: []
   - css: "credit-card"
-    code: 0xF09D
-    uid: 2549272ebec4a4004984066f856d62ef
+    code: 0xF283
+    uid: a28b45b45fce2277128570194bc2cfeb
     search: []
   - css: "hard-drive"
     code: 0xF0A0
-    uid: 664e47e6578f0e60189b88c7a60dcf29
+    uid: 87ddb86e67c17c5b4d4af710bb6c075d
     search: []
   - css: "hand-point-right"
     code: 0xF0A4
-    uid: 23de7f6eedfa8cfdd65ab635b5761063
+    uid: a8b779498be9ba04ca5adc65c0f561b0
     search: []
   - css: "hand-point-left"
     code: 0xF0A5
-    uid: 361d9f305923e337c5408e7addd5fe33
+    uid: c2ec7ad85634eeb616f7546077ae73dd
     search: []
   - css: "hand-point-up"
     code: 0xF0A6
-    uid: 70274afd94c5c2a022894a696b7764e3
+    uid: fbf4c402db075e1d0dd600cdc6f82ec8
     search: []
   - css: "hand-point-down"
     code: 0xF0A7
-    uid: 4b14113452e17a3fb046d320e9155446
+    uid: 6e340ee8da081ab7094928d4bf4aed6f
     search: []
   - css: copy
     code: 0xF0C5
-    uid: cc95748daaa167ef760defa0b2ffd366
+    uid: ef52a0e35d15b45a88dfcfca095ca506
     search: []
   - css: "floppy-disk"
     code: 0xF0C7
-    uid: 4549211da1e2e7420ae4cc1c507384ef
+    uid: 93f97a8e9045dc804211dab924c3f1e9
     search: []
   - css: square
     code: 0xF0C8
-    uid: 01bdad0a7599a529642da340fef9e671
+    uid: 4a03cf85f221447ba3ebd07098f9e4e5
     search: []
   - css: envelope
     code: 0xF0E0
-    uid: 21180a71878f12eacac20eef6ed373a5
+    uid: b8c04b4d79d643f8c8bac33c61f9df9f
     search: []
   - css: paste
     code: 0xF0EA
-    uid: 260eeab190a0f6e2a8480ac813402dcd
+    uid: 206035edd6505458f64d073930af4ff5
     search: []
   - css: lightbulb
     code: 0xF0EB
-    uid: 264e0f0306e57f80258f5c9770e3df3f
+    uid: 0ed916a74092070093ed239e47bf18f7
     search: []
   - css: bell
     code: 0xF0F3
-    uid: 8bf2439a4afc902aa16bbacffd4521ed
+    uid: 69ff83032dbd74cf28cf2a2dadd5217f
     search: []
   - css: hospital
     code: 0xF47D
-    uid: 4cf059f0077119355832933b80380fcc
-    search: []
-  - css: hospital
-    code: 0xF0F8
-    uid: 3de59f611f62ef51ca9ed81ec0bb3516
+    uid: dbe9738d5acd717fc496ebc307790478
     search: []
   - css: "square-plus"
-    code: 0xF0FE
-    uid: 98fd7a418727bd90682ab31b4d426fcf
+    code: 0xF196
+    uid: 81d8f97f55f6422244f2c976f6bb09a3
     search: []
   - css: circle
-    code: 0xF111
-    uid: 824c5b36f46e22e004df8ecc5f6df72f
+    code: 0xF1DB
+    uid: b06c3ab5c37523929fe2e9236eb985f5
     search: []
   - css: "face-smile"
     code: 0xF118
-    uid: 4693c72c5f5be11f31ae4d34b68e8a0d
+    uid: 0225237a65185e82049f6cf4af0c0a5f
     search: []
   - css: "face-frown"
     code: 0xF119
-    uid: c6e044af439733a1f60e748d89132736
+    uid: bfbb31664812e3bcc34c10afc1cc8f7f
     search: []
   - css: "face-meh"
     code: 0xF11A
-    uid: c432d8f128939a7faecf684b25f1553b
+    uid: f6bd93dc100984866d819f682be7bd31
     search: []
   - css: keyboard
     code: 0xF11C
-    uid: 0767fcfcc3f2054cba28b1f97ed8a793
+    uid: 728cdd9d81c758640ebebdb0e0983681
     search: []
   - css: calendar
     code: 0xF133
-    uid: ba464cf69fa20a3d0386d1033c62c102
+    uid: c38e57cb55653f6a47cad09a1cb77369
     search: []
   - css: "circle-play"
     code: 0xF144
-    uid: 342542ff791c298652b987afb9e40a9a
+    uid: 5bebe8fcb2cfaf678d5c5492873b352e
     search: []
   - css: "square-minus"
-    code: 0xF146
-    uid: 02298c89e3f2b61af416ad0e5366fac9
+    code: 0xF147
+    uid: d6d793eb24e5b2e7d68a09cc2de98041
     search: []
   - css: "square-check"
     code: 0xF14A
-    uid: 6e434bc11296b30f961416cbe9ae63ed
+    uid: 55060bd11368a58cfeeaf58056505f27
     search: []
   - css: "share-from-square"
     code: 0xF14D
-    uid: 8d10e51904541168d76fea326e2a1e51
+    uid: 2a71b48b5db2065831b6f73c1bb344db
     search: []
   - css: compass
     code: 0xF14E
-    uid: 0875f59068f038eebf501615093b9eb8
+    uid: 99cabfa10d91a1c95bf725a3b8d807a3
     search: []
   - css: "square-caret-down"
     code: 0xF150
-    uid: 321dd411abcdb4515c96f8870e264944
+    uid: f76b7f292ce57edd88c1fefe2cc06807
     search: []
   - css: "square-caret-up"
     code: 0xF151
-    uid: e3fa3a1cca2ffca81cdd97efbb2a16d6
+    uid: 8d0e3f910067da7545189998acb02b61
     search: []
   - css: "square-caret-right"
     code: 0xF152
-    uid: a2687a97dc610a75a5bd7c3f17e2ebad
+    uid: 83d4a8bf54ce75597bc4104e87d06b98
     search: []
   - css: file
     code: 0xF15B
-    uid: ba637b493b863b02c06ce5fd5512f27d
+    uid: d5f1ee9046bac2ef604a72c468d7f505
     search: []
   - css: "file-lines"
     code: 0xF15C
-    uid: 34ebce4e6f56d0902cb30ed7b42f782e
+    uid: dd2edc43b657e2f7c7e38a5ae2f64a90
     search: []
   - css: "thumbs-up"
     code: 0xF164
-    uid: 6ca3538b9d4f9478cc50deca4c470491
+    uid: ac3532ba7efdc0fe2f3f093147f65532
     search: []
   - css: "thumbs-down"
     code: 0xF165
-    uid: 3560f980e571596700ff235b3354b934
+    uid: 297e2bc2dec4e59bbb1ef80ec3e8738a
     search: []
   - css: sun
     code: 0xF185
-    uid: efe2cc0adea2fac03c849afecdb972ae
+    uid: f3c4ae84a264ada0051e152085768ba7
     search: []
   - css: moon
     code: 0xF186
-    uid: cfc42027b156b3e5496e17413eb7f5bb
+    uid: fbf8b5270eda552d2d8312b0a46b5e8c
     search: []
   - css: "square-caret-left"
     code: 0xF191
-    uid: 53fda52439a146c6710beb0b019b3c2a
+    uid: f50566adba771b913d3ae2fc93c889a6
     search: []
   - css: "circle-dot"
     code: 0xF192
-    uid: 89c3e5fef02c6fc10436078186a73c22
+    uid: fd41fbb7c73182f66c552d75e12b9224
     search: []
   - css: building
     code: 0xF1AD
-    uid: aa04ffb0fc19cc69e83d2ec96954f504
+    uid: 8d142e7beccebbcec6ffdd43c6424599
     search: []
   - css: "file-pdf"
     code: 0xF1C1
-    uid: 1a686662e29e5add12fb73bd8b07c125
+    uid: 0ab289367e8da32256833b4bd523e33f
     search: []
   - css: "file-word"
     code: 0xF1C2
-    uid: eb75f9982a84319f4b752ff72f5d4a43
+    uid: 059c8a52dea8e1d2724ceafa0d02d629
     search: []
   - css: "file-excel"
     code: 0xF1C3
-    uid: a95a260255f8b1c0507a77778468e0c4
+    uid: 9055cadb8f6ef00a25b09fd8cfb975a5
     search: []
   - css: "file-powerpoint"
     code: 0xF1C4
-    uid: c83b90cda65101f22d5bb9c009698fda
+    uid: f0377d43b1a637d82b0aa627780ecd11
     search: []
   - css: "file-image"
     code: 0xF1C5
-    uid: 6a5c8d7cbb70ea65c991c7f18ec5a383
+    uid: 03be30f2b4f353ec646c680969401cc4
     search: []
   - css: "file-zipper"
     code: 0xF1C6
-    uid: 91e9ce016cee8d960421926a6cc239a7
+    uid: 318c6f1e1a178fae725cd5688c2b4ebf
     search: []
   - css: "file-audio"
     code: 0xF1C7
-    uid: 4c4b08a45675aa04d0c214612da96458
+    uid: b6442e0790006900c46a8cd7495c9708
     search: []
   - css: "file-video"
     code: 0xF1C8
-    uid: 1cc707ddda444e8f1a56c8a40c6cc36d
+    uid: 78f8e40dc5ad7fd45543905724d6527b
     search: []
   - css: "file-code"
     code: 0xF1C9
-    uid: e700160554862015ad249328468d6b56
+    uid: bcf158ffab9f324de82cdb0904bc24e8
     search: []
   - css: "life-ring"
     code: 0xF1CD
-    uid: ae031bec0f04fe0cec20db1d513004af
+    uid: 083441664be1361edbb408f48ef833cc
     search: []
   - css: "paper-plane"
-    code: 0xF1D8
-    uid: 0c5475bfe84d1053f289d318f993455a
+    code: 0xF1D9
+    uid: 8037da95e8e9b2e4e6f81aeace7c1279
     search: []
   - css: futbol
     code: 0xF1E3
-    uid: eeff89c45141c98c83f777273c29fce5
+    uid: e2fc9ca572f6194378cdd719dc24caad
     search: []
   - css: newspaper
     code: 0xF1EA
-    uid: 298c1597902de0fab2d165f60ef7b74a
+    uid: e74bc79e9383e36fb0d50ebf0e078f0a
     search: []
   - css: "bell-slash"
-    code: 0xF1F6
-    uid: 24c28199aa12366b7e81d8f991ddbdd5
+    code: 0xF1F7
+    uid: b353948caa3722927aeed9260d50aebf
     search: []
   - css: copyright
     code: 0xF1F9
-    uid: b43686001d79d34365d33c1837b23a09
+    uid: 4e594ed456495c3099b33ddf2d6dbada
     search: []
   - css: "closed-captioning"
     code: 0xF20A
-    uid: c913fed2438942ec898602d6b14f66ab
+    uid: 35e989188b386e2127081d89a430607a
     search: []
   - css: "object-group"
     code: 0xF247
-    uid: a630fadc1b105e247f0f5b725db19b93
+    uid: 89c43a0a2fb644769d0a80f0da928fac
     search: []
   - css: "object-ungroup"
     code: 0xF248
-    uid: f5cdcb3d738436a2b86711dd40625dd5
+    uid: 508d37cff8b302195514cfe36ff0306e
     search: []
   - css: "note-sticky"
-    code: 0xF249
-    uid: 538ca98fe348acbdcca3f34042357afa
+    code: 0xF24A
+    uid: b8d65de22e4ffae20e3e61706b7a99b8
     search: []
   - css: clone
     code: 0xF24D
-    uid: 6430a36dee9b65bc8bb2d939246ef654
+    uid: 8b07817567d11a3532c3b712594319e6
     search: []
   - css: "hourglass-half"
     code: 0xF252
-    uid: f8a4dbf2a46ec7ff23611e733d79c453
+    uid: 920cfa31fa2f4aedd47161ea6b12eb38
     search: []
   - css: hourglass
     code: 0xF254
-    uid: 2b2802088a0a4ff580c93360a41843c1
+    uid: 3f226ea821bc8802bbe9a74589a66ce1
     search: []
   - css: "hand-back-fist"
     code: 0xF255
-    uid: 9de548cbc28c2b804998866ad8a7a5ce
+    uid: 33b5fc6e6be19a2621908e1c08a87214
     search: []
   - css: hand
     code: 0xF256
-    uid: 7df82ccc64547f1994e3aa67f50f7e97
+    uid: 4c0aac9a0d326c446038fd08cfe18ac8
     search: []
   - css: "hand-scissors"
     code: 0xF257
-    uid: 04b11a8df2959e92f18cef4b5b489a0c
+    uid: d78d2ac93ffe97fe116e22f5048db64d
     search: []
   - css: "hand-lizard"
     code: 0xF258
-    uid: 7a2200d5513e7fd8a104de3ba49b730e
+    uid: 706d09b18caf3f89cc5e3bed4e580400
     search: []
   - css: "hand-spock"
     code: 0xF259
-    uid: 4a27372d6e3b8419eb5852abf9078b77
+    uid: 258dadfe28c44b9df32d5df55843be0b
     search: []
   - css: "hand-pointer"
     code: 0xF25A
-    uid: 53b408a9e253e5eb64cbbaf8ecf914ac
+    uid: 464f55cff215114d9d6a483408228fb5
     search: []
   - css: "hand-peace"
     code: 0xF25B
-    uid: b698a82b3011ff9f12cc8c92837cfab0
+    uid: cf49b29d8ec696973ce2c2c7274ed039
     search: []
   - css: registered
     code: 0xF25D
-    uid: 3e19b16fba6d5c2d474d212d7ea01b2c
+    uid: 4b040d18aff0b922bc5da22cc661178c
     search: []
   - css: "calendar-plus"
     code: 0xF271
-    uid: 5b3e536c07095e003ece24d77ffdfa0d
+    uid: bb955e7d1406e1f19a3cfe67b203332e
     search: []
   - css: "calendar-minus"
     code: 0xF272
-    uid: 7e4f7dde598914a6494510778679ae60
+    uid: 061d47f293c76cfc7e11dd4db5c69d2d
     search: []
   - css: "calendar-xmark"
     code: 0xF273
-    uid: 9df650d0e8be23b5a6704bc0ea707d85
+    uid: 5acbb495111e95478bc46c12ade3e03b
     search: []
   - css: "calendar-check"
     code: 0xF274
-    uid: 49055f5d18aea06c16d05bfda1b685cb
+    uid: a84b67008b17e3947b83cd46dd0cd483
     search: []
   - css: map
     code: 0xF279
-    uid: 2df2103c0028bde06913af3247c7b86a
+    uid: 186b84fcb71316139645d90ab2b7b01d
     search: []
   - css: message
     code: 0xF27A
-    uid: 3e386e03cb413809930b626d6768c066
+    uid: 71f88aaf238fa440341ac684b1bd68f9
     search: []
   - css: "circle-pause"
-    code: 0xF28B
-    uid: b09b4324846043eb857c117c41f191da
+    code: 0xF28C
+    uid: a2c96874b2cd9b6b6516abb208d0549e
     search: []
   - css: "circle-stop"
-    code: 0xF28D
-    uid: 08a0f661c76a3e3a1da6720dd29be7f3
+    code: 0xF28E
+    uid: 20323fa9a848d18100352a1bdaf20013
+    search: []
+  - css: "font-awesome"
+    code: 0xF4E6
+    uid: 1240b6888d931fc2c8774eb6dce91552
     search: []
   - css: handshake
     code: 0xF2B5
-    uid: 89395a1e5f1224e853e76e10ae516442
+    uid: 5115540a167d46a6f70bb6e748749036
     search: []
   - css: "envelope-open"
-    code: 0xF2B6
-    uid: 638790517583fae3a0ccc99d3569d2fc
+    code: 0xF2B7
+    uid: f6af55082e5dd760d2c2ee3daf2a17cc
     search: []
   - css: "address-book"
-    code: 0xF2B9
-    uid: 93a92792e6a519324b05d9eca0e66d3a
+    code: 0xF2BA
+    uid: 439f8ad515236334c84231776182be18
     search: []
   - css: "address-card"
-    code: 0xF2BB
-    uid: 67d93eda29ee9b736a890a51e06cedd1
+    code: 0xF2BC
+    uid: f7e4d51e4457108480902323dd27248c
     search: []
   - css: "circle-user"
-    code: 0xF2BD
-    uid: b19bd68a40f402b6e7ba1c847276e2db
+    code: 0xF2BE
+    uid: 94f868757029ac7018019effc63c4d42
     search: []
   - css: "id-badge"
     code: 0xF2C1
-    uid: 86e5efd119dc4ee86a1259bcb80683a2
+    uid: 83f0e07d2fe51e7b05e5732277c0c208
     search: []
   - css: "id-card"
-    code: 0xF2C2
-    uid: 846399044eca1a11153cba82da0bfd7f
+    code: 0xF2C3
+    uid: 2fc23cd51c2250422e69f783df80fd4f
     search: []
   - css: "window-maximize"
     code: 0xF2D0
-    uid: 8e14d45cb18a2eb5407d371c1cd6d7e6
+    uid: 1195fd3f3c8d919878e79c9fec32106c
     search: []
   - css: "window-minimize"
     code: 0xF2D1
-    uid: eeb68640c26f9a5918db70198fdfb433
+    uid: 9a096c9423a5aead523bfa94e4fe2a89
     search: []
   - css: "window-restore"
     code: 0xF2D2
-    uid: 44f6ad90234fa66c99575b74fc4bd74f
+    uid: 103c17a65f09022b020a91459e5aaa42
     search: []
   - css: snowflake
     code: 0xF2DC
-    uid: ac785ca3f3ad7a8382b5ff1dff37de75
+    uid: e9e887aadb20e85f878fe0eaf9c81369
     search: []
   - css: "trash-can"
     code: 0xF2ED
-    uid: 1c43c7da16e654d7a857cd6cd865a773
+    uid: 5609225d3ae8e5a6cee2e68e555e576a
     search: []
   - css: images
     code: 0xF302
-    uid: 6879e18f442f445cba5c1561829bfab7
+    uid: 6160cea813d5473e5c332a78a488b4a9
     search: []
   - css: clipboard
     code: 0xF328
-    uid: e720fe5c6d37daf3aced768a962d2f99
+    uid: a8a83348ae263f8bedd0de5d8dd21963
     search: []
   - css: "circle-down"
     code: 0xF358
-    uid: 4555a5d5b17a56d0444fdfddb5e110fc
+    uid: f3aa00d128ba010fa6266774eee25ba8
     search: []
   - css: "circle-left"
-    code: 0xF359
-    uid: 16c225a7a0447eb18551ba7264d315ed
+    code: 0xF190
+    uid: a1eaa4f79ba397e19ae10ba444ce4608
     search: []
   - css: "circle-right"
-    code: 0xF35A
-    uid: a7e14597a08ec61fa413b8320c35b1eb
+    code: 0xF18E
+    uid: 0a1e643104df606374bb4d8e00001d97
     search: []
   - css: "circle-up"
-    code: 0xF35B
-    uid: d1275dcc4129db7edafd5bbea4b2f28d
+    code: 0xF01B
+    uid: 95b19a9d35e9eff6b6e61296603df1ef
     search: []
   - css: gem
     code: 0xF3A5
-    uid: 8a2b3c021cbb57f803e73079a15e0837
+    uid: 963d5ee51e37985a0fb2771222eaca5b
     search: []
   - css: "money-bill-1"
     code: 0xF3D1
-    uid: 53c13d359cf3af7bb850fdbc10381325
+    uid: fbcee87368dc4e47d023c2a088f8a2b2
     search: []
   - css: "rectangle-xmark"
     code: 0xF410
-    uid: 2d4087d01c2927df91a38827aada9e89
+    uid: cf8570b7b07754a5d9b83c6c84f31cbc
     search: []
   - css: "chess-bishop"
     code: 0xF43A
-    uid: 8cd45dac44ea7ba0bf03348988967630
+    uid: d1dac99830b418937c11e7ac693b72c6
     search: []
   - css: "chess-king"
     code: 0xF43F
-    uid: b348b17c3b1d704b23c94b7b19d1756c
+    uid: fc9fd88b4a5f6cf844287ec3464e36f9
     search: []
   - css: "chess-knight"
     code: 0xF441
-    uid: d46574813478404406382ec307ffedeb
+    uid: 445e2ca64698801899d504be9e4b7bdf
     search: []
   - css: "chess-pawn"
     code: 0xF443
-    uid: 9f4e42716d27d518a39f7ea8c04b1048
+    uid: 356c1ac7a03ed5d29eda15513fce73ea
     search: []
   - css: "chess-queen"
     code: 0xF445
-    uid: 0752d5267e571fad73ddbaa88ffd2ae2
+    uid: 41c4cb82d0cad572e5e1f9c903874654
     search: []
   - css: "chess-rook"
     code: 0xF447
-    uid: f2363ab25e3948957212f3b0a876cf4a
+    uid: 587e537f1f8dd0a8cda51b411a2b5678
     search: []
   - css: "square-full"
     code: 0xF45C
-    uid: a08d24937620464793edd5ab90d375be
+    uid: dfc1bb86ad52c7505478e2d854da98d3
     search: []
   - css: "comment-dots"
     code: 0xF4AD
-    uid: 8b2e754f6f1f2b946082af0261302fe4
+    uid: e81f13da37ea219c80edd5ee540b3cbe
     search: []
   - css: "face-smile-wink"
     code: 0xF4DA
-    uid: 01225c1bade9139f4bf0cc5205509a79
+    uid: 2ea572e54177d838d42ccdfa063279aa
     search: []
   - css: "face-angry"
     code: 0xF556
-    uid: cf6b0cddf1ab87ad5018a8ef665f8dfb
+    uid: f0c4bd1760c6bd1f9958bdd4ca98646f
     search: []
   - css: "face-dizzy"
     code: 0xF567
-    uid: 39cc9c6c1a5c8aa753c509eed0497af9
+    uid: 9b9f4502dac8649ab56bb133a18065aa
     search: []
   - css: "face-flushed"
     code: 0xF579
-    uid: f7fd60f848de8a8df851f9fbd25a8244
+    uid: 1e3c00cc65a6606fb63a99eba05f6c4c
     search: []
   - css: "face-frown-open"
     code: 0xF57A
-    uid: 02e652d09c274713d5c48d99bab88125
+    uid: 9acd7a057f2f2a72882ab1af417ff235
     search: []
   - css: "face-grimace"
     code: 0xF57F
-    uid: b33f43615156339d6c8b9ff1f5805ae4
+    uid: c9782c94669eb7f8f29e7ad76f4fc06e
     search: []
   - css: "face-grin"
     code: 0xF580
-    uid: 7ce21c1ceef1f3ab30afa7913b55255b
+    uid: c5bfa6487f77f4305ca657190d8a2fb6
     search: []
   - css: "face-grin-wide"
     code: 0xF581
-    uid: 0ab91766c81a5cefccb5d8fca960f50f
+    uid: b7eb3f099491dd366b1d944ba900c25b
     search: []
   - css: "face-grin-beam"
     code: 0xF582
-    uid: 889fbcee211f23cf59e035f3ae4fb4a9
+    uid: dbd312a728c802cf74b0d57a08495e92
     search: []
   - css: "face-grin-beam-sweat"
     code: 0xF583
-    uid: bee60142968f117dd64265b67280fe55
+    uid: 6ded9198407a69921f1717a613f643bb
     search: []
   - css: "face-grin-hearts"
     code: 0xF584
-    uid: 874f3fc107fbd24e7da6f18f83bd7eb0
+    uid: 80883b068ed931ec14cc65c8c16ab514
     search: []
   - css: "face-grin-squint"
     code: 0xF585
-    uid: 358fd64513f25200459e57be7dd8c1f8
+    uid: d655d6dc8b468515f8d16fa2102004a5
     search: []
   - css: "face-grin-squint-tears"
     code: 0xF586
-    uid: e002c6a2a9b88b3e0be3913168694a4c
+    uid: 257d2381ea1b0615bab10e4987c4c0a1
     search: []
   - css: "face-grin-stars"
     code: 0xF587
-    uid: f5c0ec338605bcbcc6e1e1034efc0683
+    uid: 9b1206596606b945bc1c7b0d87370936
     search: []
   - css: "face-grin-tears"
     code: 0xF588
-    uid: 71d09b50a20e6447e2553f594de03f56
+    uid: 632861db8f447e926fd10b655a9bb1ff
     search: []
   - css: "face-grin-tongue"
     code: 0xF589
-    uid: 2512a987b99c00ae3aa7f9bc7ad6bcf3
+    uid: bbf6ef24e7ec7d319d755fefeb0d3548
     search: []
   - css: "face-grin-tongue-squint"
     code: 0xF58A
-    uid: 2b997397e641155c565aeb9bd55bca32
+    uid: 2f86e51e366166af8adcfc7642b18cf9
     search: []
   - css: "face-grin-tongue-wink"
     code: 0xF58B
-    uid: 47210c1dc84bd15e681163cb937e118b
+    uid: 550bb97c0baee22313c9edc55121fd67
     search: []
   - css: "face-grin-wink"
     code: 0xF58C
-    uid: 1dfaf99faec5aedca0ce018ff38ab111
+    uid: 23114264fbf3c193e205928cbf3a3d73
     search: []
   - css: "face-kiss"
     code: 0xF596
-    uid: fb0eb0c4e43028658248e885051c48d9
+    uid: 05b0c47b9644f0302e29e08f55f79615
     search: []
   - css: "face-kiss-beam"
     code: 0xF597
-    uid: 872b2305ed3760d1bd1bad1f5be447dd
+    uid: 6dd0037e01a1660a5e29150446895870
     search: []
   - css: "face-kiss-wink-heart"
     code: 0xF598
-    uid: c327458bd207710ef71b02b0e1eb66d4
+    uid: 84d3af6d26af808e3dc274cbbce55096
     search: []
   - css: "face-laugh"
     code: 0xF599
-    uid: b41053b4d6afe948d6094e65598e8e1e
+    uid: 0924d17b3ef381afd1e21e23994121b7
     search: []
   - css: "face-laugh-beam"
     code: 0xF59A
-    uid: ae9e09b9792897b8185548b84f716216
+    uid: 839ba83ed3e8f42e448bd760647be7f0
     search: []
   - css: "face-laugh-squint"
     code: 0xF59B
-    uid: 8fa290a4d4031b40627ba44cf543554c
+    uid: 7901842dfcc0dd83ffb6e7b64216e727
     search: []
   - css: "face-laugh-wink"
     code: 0xF59C
-    uid: 88f3fa67a4bb0109aca4287f17dff725
+    uid: 0ba42a79669adfbe4eba0d509f58121f
     search: []
   - css: "face-meh-blank"
     code: 0xF5A4
-    uid: 241b627c7bba2450a69ed5c91cc04d6a
+    uid: d2d96fcfe60568ea53481452804a873c
     search: []
   - css: "face-rolling-eyes"
     code: 0xF5A5
-    uid: 9da6df4221ad5ef879a1a4cedea31787
+    uid: 930da3a579eb0222de7c5879e4ea3d9e
     search: []
   - css: "face-sad-cry"
     code: 0xF5B3
-    uid: 7554df5dbe8955eacf74b256e2aed4a2
+    uid: 0b69001dd9ea5b5939f12951af541a92
     search: []
   - css: "face-sad-tear"
     code: 0xF5B4
-    uid: ce417d9d25d94d804e4f3bbfe1284c27
+    uid: 0cb309903ad2f6e1d36ff654d5255b2b
     search: []
   - css: "face-smile-beam"
     code: 0xF5B8
-    uid: 3fdcf48a2968cb40607416ca1f818d4d
+    uid: d0379b2ff3d60ef381409c6cf9cdb52a
     search: []
   - css: "star-half-stroke"
     code: 0xF5C0
-    uid: b53502f68db1d15349c534c15634c9cd
+    uid: 0a12078f3d95350d47465138d8cc2101
     search: []
   - css: "face-surprise"
     code: 0xF5C2
-    uid: ea76ac8ec3844fdbd949ecfca57a47ed
+    uid: 3a717b6d19189ddac91992c41e653fd3
     search: []
   - css: "face-tired"
     code: 0xF5C8
-    uid: cecace28a2ebab268c07257afd254291
+    uid: f4a991e5462a2b3d061593dbc7297a10
     search: []
